@@ -1,0 +1,7 @@
+{
+  "name": "MODE",
+  "description": "A Notion-esque minimalist coaching app with conversational opt-in and AI-generated action plans.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
