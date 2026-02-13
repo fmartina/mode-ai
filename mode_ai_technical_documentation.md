@@ -168,6 +168,18 @@ npm run build
 
 ---
 
+## Quick start (Android)
+
+If the `android/` folder is not committed to the repository, you can regenerate it anytime from the project root:
+
+```bash
+npm install
+npm run build
+npx cap add android
+npx cap sync android
+npx cap open android
+```
+
 ## 7) Android (Capacitor): regenerate `android/` from scratch
 
 Run from the **project root**.
@@ -283,6 +295,14 @@ Select-String -Path .\**\* -Pattern "goog_|/webhook/|AIza|sk_|apiKey" -List
 ```
 
 ---
+
+## Google AI Studio (Vibe Code)
+
+You can also access and modify the application using **Google AI Studio** with Vibe Code at the link below:
+
+- https://ai.studio/apps/drive/1aesYVgZbOGH_xDTFwtLF4ATCGb2pmvdr
+
+> Note: Access depends on the Google account permissions for that Drive app.
 
 ## 13) Security notes (realistic)
 
