@@ -296,15 +296,3 @@ Select-String -Path .\**\* -Pattern "goog_|/webhook/|AIza|sk_|apiKey" -List
 
 ---
 
-## Google AI Studio (Vibe Code)
-
-You can also access and modify the application using **Google AI Studio** with Vibe Code at the link below:
-
-- https://ai.studio/apps/drive/1aesYVgZbOGH_xDTFwtLF4ATCGb2pmvdr
-
-> Note: Access depends on the Google account permissions for that Drive app.
-
-## 13) Security notes (realistic)
-
-- Even if a key is not in GitHub, if it’s used in a client app, it can be extracted from the bundle/APK.
-- For truly secret credentials (Gemini / n8n), prefer a **server-side proxy**.
